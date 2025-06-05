@@ -251,6 +251,7 @@ span{
     transform: scale(1.02);
 }
 
+        
 @media screen and (max-width: 800px){
     .header{
         position: fixed;
@@ -304,11 +305,13 @@ span{
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 1.9rem;
+    padding: 3rem 2rem 4rem;
 }
 
 .portfolio-box{
     position: relative;
     border-radius: 2rem;
+    padding: 3rem 2rem 4rem;
     overflow: hidden;
     display: flex;
     box-shadow: 0 0 0.9rem var(--bg-color);
@@ -448,6 +451,7 @@ about-img img{
    }
    .portfolio{
     background: var(--second-bg-color);
+    width: 100vw;
 }
 
 .portfolio h2{
@@ -458,6 +462,7 @@ about-img img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    width: 100vw;
     gap: 1.5rem;
 }
 
@@ -466,6 +471,7 @@ about-img img{
     border-radius: 2rem;
     overflow: hidden;
     display: flex;
+    width: 100vw;
     box-shadow: 0 0 0.5rem var(--bg-color);
     flex-wrap: wrap;
 }
@@ -559,15 +565,20 @@ about-img img{
     background: var(--second-bg-color);
 }
 
+.portfolio .portfolio-box img{
+    width: 100%;
+}
+
 .portfolio h2{
     margin-bottom: 4rem;
 }
 
 .portfolio-container{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
+    flex-wrap: wrap;
 }
 
 .portfolio-box{
@@ -793,3 +804,4 @@ about-img img{
         grid-template-columns: repeat(2, 1fr); 
     }
 }
+

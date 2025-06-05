@@ -47,9 +47,10 @@ ScrollReveal().reveal('.home-content, .heading',{origin:'top' });
 
 
 const typed = new Typed('.multiple-texts', {
-    strings:['Frontend Developer', 'Graphic Designer', 'Animator'],
+    strings:['Frontend Developer', 'Backend developer', 'UI/UX Designer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop:true
 }); 
+
