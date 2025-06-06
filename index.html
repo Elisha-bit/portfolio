@@ -167,6 +167,10 @@
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
         <nav class="navbar">
+            <button id="theme-switch">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+            </button>
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#serivces">Service</a>
@@ -209,7 +213,7 @@
         </div>
     </section>
      <div class="carousel-wrapper" id="language">
-        <div class="fade-mask fade-left"></div>
+        <div class="fade-mask fade-left" id="toggleDark"></div>
         <div class="carousel-container">
             <div class="carousel-track" id="carouselTrack">
             </div>
@@ -343,6 +347,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
 
   <script src="script.js"></script>  
+  <script type="text/JavaScript" src="darkmode.js" defer></script>
   <script>
          const languages = [
         
